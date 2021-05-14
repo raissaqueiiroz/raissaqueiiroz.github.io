@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(245, 239, 156);
+    font-family: "PT Sans", sans-serif;
+    color: rgb(20, 19, 19);
+    line-height: 30px;
+  }
+  h2{
+      font-size: 30px;
+  }
+  .links {
+      font-weight: bold;
+      color: rgb(252, 152, 71);
+  }
+  
+  img {
+    border-radius: 100%;
+  }
+  
+  .button5 {
+      font-family: "PT Sans", sans-serif;
+      background-color: #555555;
+      border-radius: 8px;
+      background-color: rgb(230, 215, 16);
+      border: 2px solid black;
+  }
