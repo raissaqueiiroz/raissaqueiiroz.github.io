@@ -1,25 +1,63 @@
+.sobre{
+    position: absolute;
+    left: 15%;
+    padding: 20px;
+}
+
+.habilidades{
+    text-align: center;
+    background-color: #8CEDE3;
+}
+
+.botoes{
+    text-align: center;
+}
+
+.foto-descricao{
+    height: 166px;
+    position: relative;
+    background-color: #ED9268;
+}
+
+#meu-nome{
+    text-align: center;
+}
+
 body {
-    background-color: rgb(245, 239, 156);
+    padding: 10px;
+    background-color: #EDD880;
     font-family: "PT Sans", sans-serif;
     color: rgb(20, 19, 19);
     line-height: 30px;
   }
-  h2{
-      font-size: 30px;
-  }
-  .links {
-      font-weight: bold;
-      color: rgb(252, 152, 71);
-  }
-  
-  img {
+
+#foto{
     border-radius: 100%;
-  }
-  
-  .button5 {
+    float: left;  
+    height: 150px;
+    padding: 8px;
+    background-color: #5C63ED;
+}
+
+
+ 
+.button5 {
+    text-align: center;
       font-family: "PT Sans", sans-serif;
-      background-color: #555555;
+      background-color: #ED9268;
       border-radius: 8px;
-      background-color: rgb(230, 215, 16);
-      border: 2px solid black;
-  }
+      background-color: #EDBD74 ;
+      border: 2px solid #5C63ED;
+}
+
+.topo{
+    text-align: center;
+}
+
+.indicacoes{
+    background-color: #EDBD74;
+}
+
+#titulo-indicacoes{
+    text-align: center;
+}
