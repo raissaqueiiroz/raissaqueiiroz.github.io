@@ -3,43 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu PORTFÓLIO</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <center>
-        <strong>
-            <p id="minhafoto"><img src="minhafoto.jpeg" alt="Foto de Jéssica sorrindo" height="150px"></p>
-            <h1>Olá! Tudo bem? Espero que sim :)</h1>
-            <h3>
-                <a href="#sobremim"><button class="button5">Sobre mim</button></a>
-                <a href="#shabilidades"><button class="button5">Habilidades</button></a>
-                <a href="#indicacoes"><button class="button5">Indicações</button></a>
-                
-            </h3>
-        </strong>
-    </center>
-    <h4>
-        <p id="sobremim">
-        <h2>Sobre mim:</h2>Meu nome é Jéssica Queiroz, nasci e resido em Montes Claros - MG. Eu me interessei pela área
-        de tecnologia assim que conheci a programação. Isso só foi possível através de uma disciplina obrigatória do
-        curso de Matemática no qual cursava, toda via não o concluí. Hoje em dia, além da Trybe, estou matriculada no curso
-        de Análise e Desenvolvimento de Sistemas no IFNMG.
+    <div>
+        <h1 id="meu-nome">Jéssica Queiroz</h1>
+        <div class="foto-descricao">
+            <img id="foto" src="minhafoto.jpeg" alt="Foto de Jéssica sorrindo">
+            <p class="sobre">
+                Meu nome é Jéssica Queiroz, tenho 24 anos, nasci e resido em Montes Claros - MG. Eu me interessei pela área
+                de tecnologia assim que conheci a programação. Isso só foi possível através de uma disciplina obrigatória do
+                curso de Matemática no qual cursava, toda via não o concluí. Hoje em dia, além da Trybe, estou matriculada
+                no curso
+                de Análise e Desenvolvimento de Sistemas no IFNMG.
+            </p>
+        </div>
+    </div>
+    <div class="botoes">
+        <h3>
+            <a href="#sobremim"><button class="button5">Sobre mim</button></a>
+            <a href="#shabilidades"><button class="button5">Habilidades</button></a>
+            <a href="#indicacoes"><button class="button5">Indicações</button></a>
+        </h3>
+    </div>
+
+    <div class="habilidades">
+        <p>
+        <h2>Habilidades:</h2> C, HTML, Esportes, Jogos eletrônicos. 
         </p>
-        <p id="habilidades">
-        <h2>Habilidades:</h2> C, HTML, Esportes, Jogos eletrônicos. <i> Obs.: gostaria de aprender a jogar
-            sinuca.</i>
-        </p>
-        <p id="indicacoes">
-        <h2>Indicações:</h2>
+    </div>
+    <div class="indicacoes">
+        <p>
+        <h2 id="titulo-indicacoes">Indicações:</h2>
         <ul>
             <li>
-                <a href="https://www.youtube.com/c/GabrielPato/featured" target="_blank" class="links">Hacking - Gabriel Pato</a>
+                <a href="https://www.youtube.com/c/GabrielPato/featured" target="_blank" class="links">Hacking - Gabriel
+                    Pato</a>
             </li>
             <li>
                 <a href="https://www.youtube.com/c/CanalTekZoom" target="_blank" class="links">Dev - CanalTekZoom</a>
@@ -48,13 +49,20 @@
                 <a href="https://www.youtube.com/c/DiolinuxBr" target="_blank" class="links">Linux - DiolinuxBr</a>
             </li>
             <li>
-                <a href="https://www.youtube.com/c/spotniks/featured" target="_blank" class="links">Artigos, reportagens, matérias a
+                <a href="https://www.youtube.com/c/spotniks/featured" target="_blank" class="links">Artigos,
+                    reportagens, matérias a
                     nível mundial - Spotniks</a>
             </li>
         </ul>
         </p>
-    </h4>
-    <h3><center><a href="#minhafoto">Voltar ao topo</a></h3></center>
+    </div>
+    <div class="topo">
+        <h3>
+            <a href="#minhafoto">Voltar ao topo</a>
+        </h3>
+        
+    </div>
+
 </body>
 
 </html>
