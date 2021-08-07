@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+
+.color {
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+#pixel-board {
+  display: inline-block;
+  border: 1px solid;
+}
+
+.pixel {
+  display: table-cell;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+}
+
+.input-user {
+  display: inline-block;
+  border: 1px solid black;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
