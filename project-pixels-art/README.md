@@ -4,4 +4,4 @@
 
 ## Modelo:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93e57e68-6dac-40f2-b633-98782b1971d2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/93e57e68-6dac-40f2-b633-98782b1971d2/Untitled.png)
+![image](https://user-images.githubusercontent.com/83843255/128611936-d97662f1-bc19-4acc-b21b-aac2eb41118a.png)
