@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gainsboro;
+  line-height: 1.5;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 110px;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.inputs-style {
+  border-radius: 4px;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+}
+
+.main {
+  display: flex;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-forms {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.name-lastname {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  flex: 1;
+}
+
+#input-lastname {
+  margin: 0;
+}
+
+.email-house {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.family-subjects {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+#label-family , #label-content {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.radio-family {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputs-checkbox {
+  width: 50%;
+}
+
+.rate {
+  margin-bottom: 10px;
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.agreement {
+  margin-bottom: 20px;
+}
+
+textarea , select {
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgb(51, 51, 51);
+  border: 1px solid rgb(51, 51, 51);
+}
+
+textarea {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  padding-right: 45px;
+}
+
+#counter {
+  position: absolute;
+  top: 570px;
+  left: 745px;
+  color: indigo;
+}
+
+select {
+  width: 150px;
+}
+
+button {
+  background-color: indigo;
+  border-radius: 7px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 1%;
+  background-color: lightslategray;
+  color: white;
+  width: 100%;
+}
