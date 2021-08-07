@@ -4,3 +4,4 @@
 
 ## Modelo:
 
+![modelo](https://raw.githubusercontent.com/jessicqueiroz/jessicqueiroz.github.io/main/project-trybewarts/pagina-principal.png)
