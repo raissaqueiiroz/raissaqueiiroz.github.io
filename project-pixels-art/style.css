@@ -3,6 +3,10 @@ body {
   background-image: url(candy-286664_1920.jpg);
 }
 
+.title {
+  color: white;
+}
+
 .color {
   display: inline-block;
   border: 1px solid black;
